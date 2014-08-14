@@ -1,0 +1,69 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.UI.uiproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:label="Welcome"
+            android:name=".page2"></activity>
+        <activity 
+            android:label="Password Storage and retrieval service"
+            android:name=".passwords"></activity>
+        <activity 
+            android:label="App Help"
+            android:name=".help1"></activity>
+        <activity 
+            android:label="Password Storage Menu"
+            android:name=".password_store"></activity>
+        <activity 
+            android:label="App Help"
+            android:name=".help2"></activity>
+        <activity 
+            android:label="Password Retreival Menu"
+            android:name=".passwordret"></activity>
+        <activity 
+            android:label="Hurray Here is your password"
+            android:name=".display"></activity>
+        <activity 
+            android:label="Document storage and retrieval service"
+            android:name=".document"></activity>
+        <activity 
+            android:label="Passport saving and retrieval service"
+            android:name=".docsaveret"></activity>
+        <activity 
+            android:label="Licence Retrieval wizard"
+            android:name=".docretloginlic"></activity>
+         <activity 
+            android:label="License saving and retrieval service"
+            android:name=".docsaveret1"></activity>
+         <activity 
+            android:label="Here is your License"
+            android:name=".displaylic"></activity>
+         <activity 
+            android:label="Here is your passport"
+            android:name=".displaypass"></activity>
+         <activity 
+            android:label="Passport retrieval wizard"
+            android:name=".docretloginpass"></activity>
+         
+    </application>
+
+</manifest>
